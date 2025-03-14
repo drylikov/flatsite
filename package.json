@@ -1,0 +1,47 @@
+{
+	"name": "flatsite",
+	"description": "A static HTML site generator",
+	"version": "0.0.5",
+	"main": "lib/flatsite",
+	"homepage": "",
+	"author": {
+		"name": "",
+		"email": "",
+		"url": ""
+	},
+	"scripts": {
+    	"test": "node test/test.js"
+ 	 },
+	"repository": {
+    "type": "git",
+    "url": ""
+	},
+	"bugs": {
+		"url": ""
+	},
+	"readme": {
+		"url": ""
+	},
+	"engines": {
+    "node": "0.8"
+  	},
+	"licenses": [
+		{
+		  "type": "MIT",
+		  "url": ""
+		}
+	],
+	"dependencies": {
+    	"plates": "0.4.x",
+    	"shelljs": "0.1.0",
+    	"chokidar": "0.5.0"
+  	},
+  	"keywords": [
+		"static",
+		"html",
+		"generator"
+  	],
+  	"devDependencies": {
+  		"shelljs": "0.1.0"
+  	}
+}
